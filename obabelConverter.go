@@ -11,7 +11,7 @@ import (
 	"sync"
 )
 
-const obabel string = "C:\\Program Files\\OpenBabel-3.1.1\\obabel.exe"
+const obabel string = "/opt/software/CHEM/openbabel-2.3.0/bin/babel"
 const goRoutinesBatchSize int = 128
 
 // for file structure directory > file to be converted
